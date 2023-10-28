@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lavender;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #DB7093;
+            padding: 12px;
+        }
+
+        .column {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #543;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: left;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .container-form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: salmon;">
+        <br>
+        <font face="Lato" size="5"><img src="https://images.squarespace-cdn.com/content/v1/5d4075f9a6305d0001bb33f9/1605361451581-XSGPT0XYAR51K3HJ4NUK/TT_New_Logo-removebg-preview.png?format=1500w" height="90px" width="140px"></font>
+        <h1 align="center">
+            <font color="#800080" size="9">Welcome To Tiny Tots<br>Kindergarten</font>
+        </h1>
+        <h3 align="center">
+            <font face="Lato" color="red" size="3">Where the fun begins!<br><br></font>
+        </h3>
+    </div>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">What's On</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! If you have any questions or concerns, please feel free to contact us using the information below:</p>
+        <p>Tiny Tots Kindergarten<br>123 Main Street<br>Rose Hill, Mauritius<br>Phone: (230)555-5555<br>Email: info@tinytotskindergarten.com</p>
+        <p>Our office hours are Monday through Friday from 8:00 AM to 5:00 PM. We will do our best to respond to your message within 24 hours.</p>
+    </div>
+    <div class="container">
+        <h1>Fill the Form</h1>
+        <div class="container-form">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email.." required>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="column">
+            Thank you for considering Tiny Tots Kindergarten for your child's early education. We look forward to welcoming you and your family into our community!
+        </div>
+    </div>
+    <div class="container">
+        <div class="column">
+            <img src="https://aspencountryday.org/wp-content/uploads/2021/03/Kindergarten-classroom-wide-lens.jpg" alt="team" style="width:100%">
+        </div>
+    </div>
+    <hr width="500px">
+    <center>
+        <b>
+            <font face="cinzel" size="2">
+                <font color="#FF0000">Copyrights @ Nauseen Taher</font>
+            </font>
+        </b>
+    </center>
+</body>
+
+</html>
